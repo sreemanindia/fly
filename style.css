@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
+body {
+    background-color: black;
+}
+   
+   .LOGO svg {
+    top: -130px;
+    left: 470px;
+    width: 500px;
+    height: 500px;
+    visibility: hidden;
+    position: absolute;
+    object-fit: cover;
+    border-radius: 50%;
+    z-index: 0;
+   }
+
+   .h1 {
+    top: -30px;
+    right: 680px;
+    height: 500px;
+    color: white;
+    position: absolute;
+    object-fit: cover;
+    font-size: 12px;
+    font-family: 'DotGothic16', sans-serif;
+    line-height: 500px;
+    z-index: 0;
+   }
+
+   .p1 {
+    top: -0px;
+    right: 510px;
+    height: 500px;
+    color: white;
+    position: absolute;
+    object-fit: cover;
+    font-size: 12px;
+    color: white;
+    font-family: 'DotGothic16', sans-serif;
+    font-size: 18px;
+    line-height: 500px;
+    z-index: 0;
+   }
+
+   .About {
+     right: 150px;
+     color: white;
+     text-align: right;
+     font-family: 'DotGothic16', sans-serif;
+     font-size: 16px;
+     object-fit: cover;
+     z-index: 0;
+   }
+
+a {
+ color: white;
+}
+
+a:link {
+    text-decoration: none;
+  }
+  a:visited {
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  a:active {
+    text-decoration: underline;
+}
